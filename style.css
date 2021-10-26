@@ -1,0 +1,60 @@
+header.container-fluid {
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*Es correcto el uso del !important para sobreescribir clases de bootstrap?*/
+h1 {
+    text-align: center;
+    color: #7c795d; 
+    font-family: 'Trocchi', serif; 
+    font-size: 7em !important; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0;
+    position: absolute;
+    z-index: 100;
+}
+
+h2 {
+    text-align: center;
+    color: #4c4a37; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 28px; 
+    line-height: 32px; 
+    margin: 0 0 24px;
+    position: absolute;
+    z-index: 100;
+    bottom: 280px;
+}
+
+.navbar-brand img {
+    width: 2.5em;
+    transform: rotate(-25deg);
+}
+#Carousel {
+    z-index: 99;
+}
+
+#travel-destination-container {
+    position: absolute;
+    top: 76px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation-bar {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.carousel-control-prev {
+    margin-top: 200px;
+    height: 50px;
+    width: 100px !important;
+}
+.carousel-control-next {
+    margin-top: 200px;
+    height: 50px;
+    width: 100px !important;;
+}
