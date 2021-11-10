@@ -1,5 +1,6 @@
-$(".size-up-on-hover").hover(function() {
-    $(this).animate({
-        height: 33
-    }, 3000)
-});
+anime({
+    targets: '#hello-world',
+    backgroundColor: '#428df5',
+    duration: 800
+  });
+  
