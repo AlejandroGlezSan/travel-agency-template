@@ -63,8 +63,15 @@ h2 {
 }
 
 /*Hover effects for the elements inside the collapsed box*/
-
+.size-up-on-hover {
+    transition: background-color 0.2s;
+}
 .size-up-on-hover:hover {
     background-color: rgba(240, 240, 245, 0.5) !important;
-    padding: 5px !important;
+}
+.nav-animation {
+    transition: font-size 0.5s;
+}
+.nav-animation:hover {
+    font-size: 30px;
 }
